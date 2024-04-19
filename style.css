@@ -1,0 +1,64 @@
+*{
+    background-color: hsl(0, 0%, 12%);
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    box-sizing: border-box;
+    border: 1px solid hsl(0, 0%, 12%);
+    border-radius: 8px;
+    margin: 0 auto 1rem;
+    max-width: 375px;
+    padding: 1rem;
+}
+img{
+    border: 1px solid hsl(0, 0%, 12%);
+    margin-left: 5rem;
+    border-radius: 50%;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: 600;
+}
+div p{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1px;
+}
+.paragraph{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1rem;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    border: 1px solid hsl(0, 0%, 12%);
+    text-align: center;
+    border-bottom: none;
+    margin: 0 2.5rem 0 0;
+    border-radius: 8px;
+    padding-top: 1rem;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    background-color:  hsl(0, 0%, 20%);
+    padding: 1rem;
+    border-radius: 8px;
+}
+li a:link{
+    color: white;
+}
+li a:visited{
+    color: beige;
+}
+li a:hover, a:focus{
+    background-color: hsl(75, 94%, 57%);
+}
