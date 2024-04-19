@@ -9,7 +9,7 @@ nav{
     box-sizing: border-box;
     border: 1px solid hsl(0, 0%, 12%);
     border-radius: 8px;
-    margin: 0 auto 1rem;
+    margin: 0 auto 1rem; 
     max-width: 375px;
     padding: 1rem;
 }
